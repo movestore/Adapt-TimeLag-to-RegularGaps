@@ -1,0 +1,46 @@
+{
+  "settings": [
+{
+      "id": "last_loctime",
+      "name": "Daily time of last location",
+      "description": "You are using this App, because your data were collected with regular daily gaps (e.g. no locations at night). Please provide here the last possible time of day that a location could be collected (before the gap). Enter the time as a timestamp, but note that the year, month and day will be ignored. Defaults to NULL (input data without timelag2 will be returned).",
+      "defaultValue": null,
+      "type": "INSTANT"
+    }
+  ],
+  "dependencies": {
+    "R": [
+      {
+        "name": "move"
+      }
+    ]
+  },
+  "license": {
+    "key": "MIT"
+  },
+  "language": "eng",
+  "keywords": [
+    "timelag",
+    "adapt",
+	"regular gaps",
+    "data resolution"
+  ],
+  "people": [
+    {
+     "firstName": "Andrea",
+      "middleInitials": null,
+      "lastName": "Kölzsch",
+      "email": "akoelzsch@ab.mpg.de",
+      "roles": [
+        "author",
+        "creator"
+      ],
+      "orcid": "0000-0003-0193-1563",
+      "affiliation": "Max-Planck-Institute of Animal Behavior",
+      "affiliationRor": "https://ror.org/026stee22"
+    }
+  ],
+  "documentation": {
+    "url": "https://github.com/movestore/Adapt-TimeLag-to-RegularGaps/blob/main/README.md"
+  }
+}
